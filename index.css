@@ -1,0 +1,94 @@
+body {
+    padding: 67px 200px 0 237px;
+    background-color: #fafafa;
+}
+
+#div-container {
+    display: flex;
+}
+
+#title {
+    font-family: "PT Serif";
+    font-weight: 700;
+    font-size: 36px;
+}
+
+#div-left {
+    flex: 60%;
+}
+
+#div-subtitle-right {
+    font-family: "Poppins", sans-serif;
+    flex: 50%;
+    padding-top: 16px;
+}
+
+#subtitle {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#description {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#section-people {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 90px;
+    padding-top: 95px;
+    padding-bottom: 20px;
+}
+
+#div-in-span {
+    display: flex;
+}
+
+#div-with-img-span-p {
+    padding-top: 6em;
+}
+
+#div-img {
+    width: 98%;
+    height: auto;
+}
+
+#div-span {
+    position: absolute;
+    text-transform: uppercase;
+    transform: rotate(90deg) translateX(-10%) translateY(-1640%);
+    width: 1em;
+    white-space: nowrap;
+    /* font */
+    font-family: "PT Serif";
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#div-p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    flex-direction: column;
+    align-items: center;
+    color: #bdbdbd;
+    padding: 90px 0 1em 0;
+}
+
+#footer-span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+    color: #a9a9a9;
+}
+
+a {
+    color: #bdbdbd;
+    font-weight: 700;
+    padding: 0px;
+}
